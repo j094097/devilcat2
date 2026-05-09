@@ -12,9 +12,14 @@
 
 @import "bootstrap";
 
-body {
-  background-image: image-url('background.png');
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("background.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
 }
-
