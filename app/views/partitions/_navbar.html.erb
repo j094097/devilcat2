@@ -1,13 +1,26 @@
-<nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">DevilCat</a>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <%= link_to "Home", root_path, class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.pathofexile.com/forum/view-thread/3870472" target="_blank">POE圖奇掉寶活動</a>
-      </li>
-    </ul>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">DevilCat</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <%= link_to "Home", root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              表格
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://reurl.cc/vEXG5o" target="_blank">傳送門</a></li>
+              <%# <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> %>
+            </ul>
+          </li>
+        <%# <li class="nav-item">
+          <a class="nav-link" href="https://www.pathofexile.com/forum/view-thread/3870472" target="_blank">POE圖奇掉寶活動</a>
+        </li> %>
+      </ul>
+    </div>
   </div>
 </nav>
