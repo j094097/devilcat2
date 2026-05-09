@@ -15,10 +15,10 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-#bootstrap & sass
+# bootstrap & sass
 gem "bootstrap", "~> 5.3.8"
 gem "autoprefixer-rails"
-gem 'jquery-rails'
+gem "jquery-rails"
 gem "dartsass-rails", "~> 0.5.1"
 
 # Use Redis adapter to run Action Cable in production
